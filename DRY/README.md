@@ -19,7 +19,3 @@
 ```
 *	Analyze the code and resolve violations of DRY rule.
 ```
-### Task2
-```
-*	Analyze the code and resolve violations of DRY rule.
-```
