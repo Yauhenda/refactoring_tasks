@@ -21,8 +21,3 @@ jobs:
         with:
           SONAR_SECRET:${{ secrets.SONARCLOUD }}
         run: mvn -B --file pom.xml
-      - uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          file: ./coverage.xml
-          fail_ci_if_error: true
