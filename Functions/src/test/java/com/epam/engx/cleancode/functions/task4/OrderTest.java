@@ -31,7 +31,7 @@ public class OrderTest {
     @Test
     public void shouldCalculateTwentyIfOrderContainsTwoAvailable10PriceProducts() {
         order.setProducts(getList(new AvailableProductStub(), new AvailableProductStub()));
-        assertEquals(10.0, order.getPriceOfAvailableProducts(), DELTA);
+        assertEquals(20.0, order.getPriceOfAvailableProducts(), DELTA);
     }
 
     @Test
