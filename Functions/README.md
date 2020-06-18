@@ -15,6 +15,7 @@
 
 ## Task Specific guidelines
 
+
 ## All Tasks
 ```
 * Analyze the code and make changes to improve the readability and maintainability by extracting and modifying functions.
